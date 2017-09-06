@@ -38,7 +38,7 @@
 		<site>
 			<id>site.deployments</id>
 			<name>Site deployments</name>
-			<url>dav:http://192.168.0.20:8080/sites/${artifactId}/</url>
+			<url>dav:http://192.168.0.17:8080/sites/${project.artifactId}/</url>
 		</site>
 		<!-- end - location where site is deployed - username/password for site.deployments in server.xml -->
 	</distributionManagement>
